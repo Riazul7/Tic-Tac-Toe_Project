@@ -68,6 +68,7 @@ def game_on():
             if win_check(board, player1):
                 print("Player 1 has won this match")
                 break
+            elif win_check(board, player2):
                 print("Player 2 has won this match")
                 break
             else:
